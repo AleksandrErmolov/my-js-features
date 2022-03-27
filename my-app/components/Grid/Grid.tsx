@@ -1,5 +1,4 @@
 import React from 'react';
-import s from './Grid.module.css'
 
  interface GridProps {
     children: React.ReactChildren[] | React.ReactChild[]
@@ -7,7 +6,7 @@ import s from './Grid.module.css'
 
 export default function Grid({children}:GridProps) {
     return (
-        <div className={s.grid}>
+        <div className='grid'>
             {children}
         </div>
     );

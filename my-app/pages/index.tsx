@@ -1,6 +1,7 @@
 import type { NextPage } from 'next'
 import Head from 'next/head'
 import Grid from "../components/Grid/Grid";
+import WhatIsDevice from '../hooks/WhatIsDevice/WhatIsDevice'
 
 const Home: NextPage = () => {
   return (
@@ -11,8 +12,7 @@ const Home: NextPage = () => {
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
-
-        <h1>ggg</h1>
+       <WhatIsDevice/>
 
    </Grid>
   )
