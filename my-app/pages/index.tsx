@@ -1,14 +1,12 @@
 import type {NextPage} from 'next'
 import Head from 'next/head'
 import Grid from "../src/components/Grid/Grid";
-import trueFalse from "../hooks/TrueFalse/TrueFalse";
 import Slider from "../src/components/Slider/Slider";
-
+import SliderOnePicture from "../src/components/SliderOnePicture/SliderOnePicture";
 
 
 const Home: NextPage = () => {
 
-    const [isVisible, toogleVisible] = trueFalse<boolean>(true)
 
     return (
         <Grid>
@@ -19,8 +17,7 @@ const Home: NextPage = () => {
             </Head>
 
 
-            <Slider></Slider>
-
+            <SliderOnePicture/>
         </Grid>
     )
 }
