@@ -11,5 +11,10 @@ import img5 from './img/img5.jpg'
     {id:3, title:'номер3', img:img3},
     {id:4, title:'номер5', img:img4},
     {id:5, title:'номер6', img:img5},
+    {id:6, title:'номер1', img:img1},
+    {id:7, title:'номер2', img:img2},
+    {id:8, title:'номер3', img:img3},
+    {id:9, title:'номер5', img:img4},
+    {id:10, title:'номер6', img:img5},
 ]
 

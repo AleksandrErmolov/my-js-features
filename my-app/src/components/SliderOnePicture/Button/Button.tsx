@@ -1,4 +1,4 @@
-import React, {useEffect, useState} from 'react';
+import React from 'react';
 import left from './right.png'
 import right from './left.png'
 import styled from 'styled-components';
@@ -6,7 +6,7 @@ import styled from 'styled-components';
 
 interface ButtonProps {
     direction?: string | undefined;
-    action?: Function | undefined | string | void | any;
+    action?: () => void | undefined;
 }
 
 const SliderButton = styled.button`
