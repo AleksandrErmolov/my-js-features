@@ -2,6 +2,8 @@ import type {NextPage} from 'next'
 import Head from 'next/head'
 import Grid from "../src/components/Grid/Grid";
 import SliderOnePicture from "../src/components/SliderOnePicture/SliderOnePicture";
+import SliderSmallDot from "../src/components/SliderSmallDot/SliderSmallDot";
+import Tabs from "../src/components/Tabs/Tabs";
 
 
 const Home: NextPage = () => {
@@ -15,6 +17,8 @@ const Home: NextPage = () => {
                 <link rel="icon" href="/favicon.ico"/>
             </Head>
             <SliderOnePicture/>
+            <SliderSmallDot />
+            <Tabs />
         </Grid>
     )
 }
